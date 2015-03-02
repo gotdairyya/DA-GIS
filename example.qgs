@@ -1,0 +1,1773 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.6.1-Brighton">
+    <title></title>
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+        <customproperties/>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="PawnShopDCA_Geocoded20150209164555880" name="PawnShopDCA_Geocoded">
+            <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="mta_line_june201420150209164603037" name="mta_line_june2014">
+            <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="Daytime_Warming_Shelters20150210172844440" name="Daytime_Warming_Shelters">
+            <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="Daytime_Warming_Shelters_shp20150210172236238" name="Daytime_Warming_Shelters.shp">
+            <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="InfoShareAndBankData_Revised1_april420150209164548708" name="InfoShareAndBankData_Revised1_april4">
+            <customproperties/>
+        </layer-tree-layer>
+    </layer-tree-group>
+    <relations/>
+    <mapcanvas>
+        <units>degrees</units>
+        <extent>
+            <xmin>-74.27757900339557295</xmin>
+            <ymin>40.54717333319183581</ymin>
+            <xmax>-73.46923477419355208</xmax>
+            <ymax>40.98639358319182691</ymax>
+        </extent>
+        <projections>1</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                <srsid>3452</srsid>
+                <srid>4326</srid>
+                <authid>EPSG:4326</authid>
+                <description>WGS 84</description>
+                <projectionacronym>longlat</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <geographicflag>true</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+        <layer_coordinate_transform_info>
+            <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="USER:100001" srcDatumTransform="-1" destDatumTransform="-1" layerid="mta_line_june201420150209164603037"/>
+            <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="USER:100001" srcDatumTransform="-1" destDatumTransform="-1" layerid="PawnShopDCA_Geocoded20150209164555880"/>
+            <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Daytime_Warming_Shelters20150210172844440"/>
+            <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="InfoShareAndBankData_Revised1_april420150209164548708"/>
+            <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Daytime_Warming_Shelters_shp20150210172236238"/>
+        </layer_coordinate_transform_info>
+    </mapcanvas>
+    <visibility-presets/>
+    <layer-tree-canvas>
+        <custom-order enabled="0">
+            <item>InfoShareAndBankData_Revised1_april420150209164548708</item>
+            <item>PawnShopDCA_Geocoded20150209164555880</item>
+            <item>mta_line_june201420150209164603037</item>
+            <item>Daytime_Warming_Shelters_shp20150210172236238</item>
+            <item>Daytime_Warming_Shelters20150210172844440</item>
+        </custom-order>
+    </layer-tree-canvas>
+    <legend updateDrawingOrder="true">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="PawnShopDCA_Geocoded" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="PawnShopDCA_Geocoded20150209164555880" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="mta_line_june2014" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="mta_line_june201420150209164603037" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Daytime_Warming_Shelters" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Daytime_Warming_Shelters20150210172844440" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Daytime_Warming_Shelters.shp" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Daytime_Warming_Shelters_shp20150210172236238" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="InfoShareAndBankData_Revised1_april4" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="InfoShareAndBankData_Revised1_april420150209164548708" visible="1"/>
+            </filegroup>
+        </legendlayer>
+    </legend>
+    <projectlayers layercount="5">
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>Daytime_Warming_Shelters20150210172844440</id>
+            <datasource>./geocoding/Daytime_Warming_Shelters.geojson</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>Daytime_Warming_Shelters</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <expressionfields/>
+            <edittypes>
+                <edittype widgetv2type="TextEdit" name="DFTA ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Program Na">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Date From">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Date To">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Time From">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Time to">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Site Addre">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Borough">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Zip Code">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="addrtype">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="addrlocat">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="238,200,143,255"/>
+                            <prop k="horizontal_anchor_point" v="1"/>
+                            <prop k="name" v="circle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="outline_color" v="0,0,0,255"/>
+                            <prop k="outline_style" v="solid"/>
+                            <prop k="outline_width" v="0"/>
+                            <prop k="outline_width_map_unit_scale" v="0,0"/>
+                            <prop k="outline_width_unit" v="MM"/>
+                            <prop k="scale_method" v="area"/>
+                            <prop k="size" v="2"/>
+                            <prop k="size_map_unit_scale" v="0,0"/>
+                            <prop k="size_unit" v="MM"/>
+                            <prop k="vertical_anchor_point" v="1"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation/>
+                <sizescale scalemethod="area"/>
+            </renderer-v2>
+            <customproperties/>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>DFTA ID</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name=".Helvetica Neue DeskInterface"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform></annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+            <edittypes>
+                <edittype widgetv2type="TextEdit" name="DFTA ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Program Na">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Date From">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Date To">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Time From">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Time to">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Site Addre">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Borough">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Zip Code">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="addrtype">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="addrlocat">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>Daytime_Warming_Shelters_shp20150210172236238</id>
+            <datasource>./geocoding/Daytime_Warming_Shelters.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>Daytime_Warming_Shelters.shp</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression>COALESCE( "DFTA ID", '&lt;NULL>' )</previewExpression>
+            <vectorjoins/>
+            <expressionfields/>
+            <edittypes>
+                <edittype widgetv2type="TextEdit" name="DFTA ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Program Na">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Date From">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Date To">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Time From">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Time to">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Site Addre">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Borough">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Zip Code">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="addrtype">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="addrlocat">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="239,245,64,255"/>
+                            <prop k="horizontal_anchor_point" v="1"/>
+                            <prop k="name" v="regular_star"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="outline_color" v="255,0,0,0"/>
+                            <prop k="outline_style" v="solid"/>
+                            <prop k="outline_width" v="0"/>
+                            <prop k="outline_width_map_unit_scale" v="0,0"/>
+                            <prop k="outline_width_unit" v="MM"/>
+                            <prop k="scale_method" v="area"/>
+                            <prop k="size" v="6"/>
+                            <prop k="size_map_unit_scale" v="0,0"/>
+                            <prop k="size_unit" v="MM"/>
+                            <prop k="vertical_anchor_point" v="1"/>
+                        </layer>
+                        <layer pass="0" class="SimpleMarker" locked="1">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="255,255,127,255"/>
+                            <prop k="horizontal_anchor_point" v="1"/>
+                            <prop k="name" v="circle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="outline_color" v="0,0,0,0"/>
+                            <prop k="outline_style" v="solid"/>
+                            <prop k="outline_width" v="0"/>
+                            <prop k="outline_width_map_unit_scale" v="0,0"/>
+                            <prop k="outline_width_unit" v="MM"/>
+                            <prop k="scale_method" v="area"/>
+                            <prop k="size" v="2"/>
+                            <prop k="size_map_unit_scale" v="0,0"/>
+                            <prop k="size_unit" v="MM"/>
+                            <prop k="vertical_anchor_point" v="1"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation/>
+                <sizescale scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidInside" value="false"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/distMapUnitMaxScale" value="0"/>
+                <property key="labeling/distMapUnitMinScale" value="0"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value=".Helvetica Neue DeskInterface"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="13"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value=""/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/repeatDistance" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+                <property key="labeling/repeatDistanceUnit" value="1"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>DFTA ID</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name=".Helvetica Neue DeskInterface"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform></annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+            <edittypes>
+                <edittype widgetv2type="TextEdit" name="DFTA ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Program Na">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Date From">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Date To">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Time From">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Time to">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Site Addre">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Borough">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Zip Code">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="addrtype">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="addrlocat">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>InfoShareAndBankData_Revised1_april420150209164548708</id>
+            <datasource>./GISData/polygon/InfoShareAndBankData_Revised1_april4.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>InfoShareAndBankData_Revised1_april4</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <expressionfields/>
+            <edittypes>
+                <edittype widgetv2type="TextEdit" name="FID_1">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="NYC_NEIG">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="MapID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Pop">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ForBornPop">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ForBornPer">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="PovertyPop">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="PovertyPer">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Households">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="MedHouInco">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Employed">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Unemployed">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Armed_Forc">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="NotInLabor">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="UnempRate">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Pawnshops">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="CheckCash">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="MoneyTrans">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="AFS_Sum">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Banks">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BankingSum">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Libraries">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="McDonalds1">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="AFS_PAW">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="AFS_BANK">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="AFS_LIB">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BANK_AFS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BANK_LIB">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BANK_PAW">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="LIB_AFS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="LIB_BANK">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="LIB_PAW">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="McD_AFS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="McD_BANK">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="McD_PAW">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="PAW_BANK">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="PAW_LIB">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BANK_McD">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="AFS_McD">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="sq_mile">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BANK_SQMI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="AFS_SQMI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="PAWN_SQMI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="McD_SQMI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="LIB_SQMI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="HH_BANK">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="HH_AFS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="HH_PAWN">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="HH_McD">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="HH_LIB">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="color" v="79,161,227,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="outline_color" v="0,0,0,255"/>
+                            <prop k="outline_style" v="solid"/>
+                            <prop k="outline_width" v="0.26"/>
+                            <prop k="outline_width_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation/>
+                <sizescale scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidInside" value="false"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/distMapUnitMaxScale" value="0"/>
+                <property key="labeling/distMapUnitMinScale" value="0"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value=".Helvetica Neue DeskInterface"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="13"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value=""/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="1"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/repeatDistance" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+                <property key="labeling/repeatDistanceUnit" value="1"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>FID_1</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name=".Helvetica Neue DeskInterface"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+            <edittypes>
+                <edittype widgetv2type="TextEdit" name="FID_1">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="NYC_NEIG">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="MapID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Pop">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ForBornPop">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ForBornPer">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="PovertyPop">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="PovertyPer">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Households">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="MedHouInco">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Employed">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Unemployed">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Armed_Forc">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="NotInLabor">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="UnempRate">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Pawnshops">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="CheckCash">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="MoneyTrans">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="AFS_Sum">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Banks">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BankingSum">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Libraries">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="McDonalds1">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="AFS_PAW">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="AFS_BANK">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="AFS_LIB">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BANK_AFS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BANK_LIB">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BANK_PAW">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="LIB_AFS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="LIB_BANK">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="LIB_PAW">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="McD_AFS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="McD_BANK">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="McD_PAW">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="PAW_BANK">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="PAW_LIB">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BANK_McD">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="AFS_McD">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="sq_mile">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BANK_SQMI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="AFS_SQMI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="PAWN_SQMI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="McD_SQMI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="LIB_SQMI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="HH_BANK">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="HH_AFS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="HH_PAWN">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="HH_McD">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="HH_LIB">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>PawnShopDCA_Geocoded20150209164555880</id>
+            <datasource>./GISData/point/PawnShopDCA_Geocoded.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PawnShopDCA_Geocoded</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=40.66666666666666 +lat_2=41.03333333333333 +lat_0=40.16666666666666 +lon_0=-74 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * Generated CRS (+proj=lcc +lat_1=40.66666666666666 +lat_2=41.03333333333333 +lat_0=40.16666666666666 +lon_0=-74 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <expressionfields/>
+            <edittypes>
+                <edittype widgetv2type="TextEdit" name="Status">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Score">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Match_type">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Match_addr">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Side">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Ref_ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="User_fld">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Addr_type">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ARC_Street">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ARC_ZIP">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ENTITY_TYP">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="LIC_NUM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="LIC_EXP">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BUSINESS_N">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="TRADE_NAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BLDG_NUM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="STREET_NAM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ADDRESS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="CITY">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="STATE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ZIP">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="PHONE_NUM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="255,127,0,255"/>
+                            <prop k="horizontal_anchor_point" v="1"/>
+                            <prop k="name" v="circle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="outline_color" v="0,0,0,255"/>
+                            <prop k="outline_style" v="solid"/>
+                            <prop k="outline_width" v="0"/>
+                            <prop k="outline_width_map_unit_scale" v="0,0"/>
+                            <prop k="outline_width_unit" v="MM"/>
+                            <prop k="scale_method" v="area"/>
+                            <prop k="size" v="2"/>
+                            <prop k="size_map_unit_scale" v="0,0"/>
+                            <prop k="size_unit" v="MM"/>
+                            <prop k="vertical_anchor_point" v="1"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation/>
+                <sizescale scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidInside" value="false"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/distMapUnitMaxScale" value="0"/>
+                <property key="labeling/distMapUnitMinScale" value="0"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value=".Helvetica Neue DeskInterface"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="13"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value=""/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/repeatDistance" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+                <property key="labeling/repeatDistanceUnit" value="1"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>TRADE_NAME</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name=".Helvetica Neue DeskInterface"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+            <edittypes>
+                <edittype widgetv2type="TextEdit" name="Status">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Score">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Match_type">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Match_addr">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Side">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Ref_ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="User_fld">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Addr_type">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ARC_Street">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ARC_ZIP">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ENTITY_TYP">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="LIC_NUM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="LIC_EXP">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BUSINESS_N">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="TRADE_NAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="BLDG_NUM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="STREET_NAM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ADDRESS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="CITY">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="STATE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="ZIP">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="PHONE_NUM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>mta_line_june201420150209164603037</id>
+            <datasource>./GISData/line/mta_line_june2014.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>mta_line_june2014</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=40.66666666666666 +lat_2=41.03333333333333 +lat_0=40.16666666666666 +lon_0=-74 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * Generated CRS (+proj=lcc +lat_1=40.66666666666666 +lat_2=41.03333333333333 +lat_0=40.16666666666666 +lon_0=-74 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <expressionfields/>
+            <edittypes>
+                <edittype widgetv2type="TextEdit" name="Street">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Line">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="line" name="0">
+                        <layer pass="7" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="line_color" v="80,80,80,255"/>
+                            <prop k="line_style" v="solid"/>
+                            <prop k="line_width" v="1.16"/>
+                            <prop k="line_width_unit" v="MM"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                        </layer>
+                        <layer pass="14" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="line_color" v="169,169,169,255"/>
+                            <prop k="line_style" v="solid"/>
+                            <prop k="line_width" v="0.96"/>
+                            <prop k="line_width_unit" v="MM"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation/>
+                <sizescale scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidInside" value="false"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/distMapUnitMaxScale" value="0"/>
+                <property key="labeling/distMapUnitMinScale" value="0"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value=".Helvetica Neue DeskInterface"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="13"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value=""/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="2"/>
+                <property key="labeling/placementFlags" value="10"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/repeatDistance" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+                <property key="labeling/repeatDistanceUnit" value="1"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>Street</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name=".Helvetica Neue DeskInterface"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+            <edittypes>
+                <edittype widgetv2type="TextEdit" name="Street">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype widgetv2type="TextEdit" name="Line">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <SpatialRefSys>
+            <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+            <ProjectCRSID type="int">3452</ProjectCRSID>
+            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+        </SpatialRefSys>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <Digitizing>
+            <LayerSnappingList type="QStringList">
+                <value>InfoShareAndBankData_Revised1_april420150209164548708</value>
+                <value>PawnShopDCA_Geocoded20150209164555880</value>
+                <value>mta_line_june201420150209164603037</value>
+            </LayerSnappingList>
+            <LayerSnappingEnabledList type="QStringList">
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+            </LayerSnappingEnabledList>
+            <AvoidIntersectionsList type="QStringList"/>
+            <LayerSnappingToleranceUnitList type="QStringList">
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+            </LayerSnappingToleranceUnitList>
+            <LayerSnapToList type="QStringList">
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+            </LayerSnapToList>
+            <LayerSnappingToleranceList type="QStringList">
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+            </LayerSnappingToleranceList>
+        </Digitizing>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+        </PositionPrecision>
+        <Legend>
+            <filterByMap type="bool">false</filterByMap>
+        </Legend>
+    </properties>
+</qgis>
